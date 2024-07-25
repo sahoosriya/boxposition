@@ -1,0 +1,48 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top:398px;
+    left: 398px;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 398px;
+    left:0px
+  
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+   position: absolute;
+   top:0px;
+   left: 398px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+   top: 0px;
+   left:0px
+}
+.parent-container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left:470px
+    
+}
+.child{
+    border: 2px solid yellow;
+    color: aqua;
+}
